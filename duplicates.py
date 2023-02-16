@@ -6,3 +6,4 @@ for i in range (15):
 
 # Change the working directory (XXX) and file_name with the file format (.pdb).
 shutil.copy2 ('xxx/file_name.pdb', 'xxx/file_name{}.pdb'.format(i))
+print(f"Created duplicate file {i+1}")
